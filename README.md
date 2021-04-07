@@ -58,6 +58,14 @@ $ }
 * _server_: Exposes the app as REST API and handles the HTTP server setup.
 * _user_: A user module showcasing a simple structure using repository and REST handler.
 
+### Changing the Project Name
+
+To change the project name from _go-project-name_ to something else you need to edit the _go.mod_ module end edit the
+first line `module github.com/eldonaldo/go-project-template` to `module github.com/your-username/your-new-name`. Imports
+in all files need to be changed according (your IDE probably can do that for you :recycle:). Further, you might also
+want change `cmd/project-name` and therefore you also need to change line 6 of `.air.conf`. But that should be it
+then. :white_check_mark:
+
 ## Libraries Used
 
 * [github.com/caarlos0/env - Read env variables into struct fields](https://github.com/caarlos0/env)
