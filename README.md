@@ -14,7 +14,7 @@ a REST API using the go-shipped webserver.
 * A simple database migration system. :raised_hands:
 * Injection of environment variables into config files. :notes:
 * Simple spring-like repository structure for convenient database queries. :star:
-
+* Testing setup. :construction_worker: 
 Feedback and PRs welcome! I hope you find it useful. :beer: :pizza:
 
 ## Installation and Run Project
@@ -72,5 +72,5 @@ then. :white_check_mark:
 * [github.com/pressly/goose - Database migrations](https://github.com/pressly/goose)
 * [gorm.io/gorm - ORM](https://gorm.io/)
 * [github.com/cosmtrek/air - Hot reloading](https://github.com/cosmtrek/air)
-
+* [github.com/stretchr/testify/assert - For convenient testing](github.com/stretchr/testify/assert)
 :wave:
