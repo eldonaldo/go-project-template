@@ -48,13 +48,12 @@ $ }
 
 # Project Setup
 
-TBD
-_cmd_: Contains the apps binaries
-_core_: The app's core functionality resides here (such as database handling, migrations etc.)
-_scripts_: Automation scripts. There is a script to bootstrap a new migration and another to downgrade an already
+* _cmd_: Contains the apps binaries
+* _core_: The app's core functionality resides here (such as database handling, migrations etc.)
+* _scripts_: Automation scripts. There is a script to bootstrap a new migration and another to downgrade an already
 applied migration.
-_server_: Handles the HTTP server setup
-_user_: A user module
+* _server_: Handles the HTTP server setup
+* _user_: A user module
 
 ## Libraries Used
 
