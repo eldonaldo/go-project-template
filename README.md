@@ -15,19 +15,19 @@ a REST API using the go-shipped webserver.
 * Injection of environment variables into config files. :notes:
 * Simple spring-like repository structure for convenient database queries. :star:
 
-Feedback and PR welcome! I hope you find it useful! :beer: :pizza:
+Feedback and PRs welcome! I hope you find it useful. :beer: :pizza:
 
 ## Installation and Run Project
 
 ```bash
-git clone https://github.com/eldonaldo/go-project-template
-cd go-project-template
+$ git clone https://github.com/eldonaldo/go-project-template
+$ cd go-project-template
 
 # You need to get air separately to get the hot reloading running 
-go get -u github.com/cosmtrek/air
+$ go get -u github.com/cosmtrek/air
 
 # Runs the project with hot reloading enabled
-air
+$ air
 ```
 
 Interact with the app using the command line :computer:
