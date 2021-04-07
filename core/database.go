@@ -12,7 +12,7 @@ const (
 	MigrationFolder = "core/db/migrations/"
 )
 
-// Base model which als models that should be persisted extend
+// Base model which all models extend
 type BaseModel struct {
 	ID        uint `gorm:"primarykey"`
 	CreatedAt time.Time
@@ -44,6 +44,7 @@ var databaseHandle *gorm.DB
 
 // Package init
 func init() {
+	// Only connects once to the database for the entire app
 	_db, err := gorm.Open(sqlite.Open(DatabaseFile), &gorm.Config{})
 	if err != nil {
 		panic(fmt.Sprintf("Failed to connect to database: %s", DatabaseFile))
