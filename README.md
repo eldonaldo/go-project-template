@@ -1,6 +1,6 @@
 # A Simple Go Project Template - Suited for Webapp MVPs
 
-A simple go project structure setup with all dependencies you need to get your MVP off the ground :rocket:
+A simple go project structure setup with all dependencies you need to get your MVP off the ground. :rocket:
 
 The project is suited as starting point for a simple webapp MVP. Besides the core files needed to get the setup running
 it contains a simple user module showcasing the intended project structure. Running the project starts the app exposing
@@ -8,36 +8,29 @@ a REST API using the go-shipped webserver.
 
 **Features**
 
-* Live reloading :trollface:
-* sqllite3 database for local development :heart:
-* ORM ready to go :runner:
-* A simple database migration system :raised_hands:
-* Injection of environment variables into config files :notes:
-* Simple spring-like repository structure for convenient database queries :star:
+* Hot reloading. :trollface:
+* sqllite3 database for local development. :heart:
+* ORM ready to go. :runner:
+* A simple database migration system. :raised_hands:
+* Injection of environment variables into config files. :notes:
+* Simple spring-like repository structure for convenient database queries. :star:
 
+Feedback and PR welcome! I hope you find it useful! :beer: :pizza:
 
-I hope you find it useful! :beer: :pizza:
-
-## Installation
+## Installation and Run Project
 
 ```bash
 git clone https://github.com/eldonaldo/go-project-template
 cd go-project-template
 
-# You need to get air separately to get the live reloading running 
+# You need to get air separately to get the hot reloading running 
 go get -u github.com/cosmtrek/air
-```
 
-## Run Project
-
-```bash
-cd go-project-template
-
-# Runs the project with live reloading enabled
+# Runs the project with hot reloading enabled
 air
 ```
 
-Then interact with the app using the command line
+Interact with the app using the command line :computer:
 
 ```bash
 $ curl localhost:8008/create?name=John
@@ -70,6 +63,6 @@ $ }
 * [github.com/caarlos0/env - Read env variables into struct fields](https://github.com/caarlos0/env)
 * [github.com/pressly/goose - Database migrations](https://github.com/pressly/goose)
 * [gorm.io/gorm - ORM](https://gorm.io/)
-* [github.com/cosmtrek/air - Live reloading](https://github.com/cosmtrek/air)
+* [github.com/cosmtrek/air - Hot reloading](https://github.com/cosmtrek/air)
 
 :wave:
