@@ -15,7 +15,8 @@ a REST API using the go-shipped webserver.
 * Injection of environment variables into config files. :notes:
 * Simple spring-like repository structure for convenient database queries. :star:
 * Testing setup. :construction_worker:
-  Feedback and PRs welcome! I hope you find it useful. :beer: :pizza:
+  
+Feedback and PRs welcome! I hope you find it useful. :beer: :pizza:
 
 ## Installation and Run Project
 
