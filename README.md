@@ -54,7 +54,7 @@ $ }
 * _core/db/migrations_: SQL migration files go in here. Use `./scripts/migration_create.sh migration_name` to create a
   new one.
 * _scripts_: Automation scripts. There is a script to bootstrap a new migration and another to downgrade an already
-  applied migration.
+  applied migration. Migrations in this folder are automatically executed once in order upon app start.
 * _server_: Exposes the app as REST API and handles the HTTP server setup.
 * _user_: A user module showcasing a simple structure using repository and REST handler.
 
