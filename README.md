@@ -53,9 +53,9 @@ $ }
 * _cmd_: Contains the app binaries
 * _core_: The app's core functionality resides here (such as database handling, migrations etc.)
 * _core/db/migrations_: SQL migration files go in here. Use `./scripts/migration_create.sh migration_name` to create a
-  new one.
+  new one. Migrations in this folder are automatically executed (in order) once upon app start.
 * _scripts_: Automation scripts. There is a script to bootstrap a new migration and another to downgrade an already
-  applied migration. Migrations in this folder are automatically executed once in order upon app start.
+  applied migration. 
 * _server_: Exposes the app as REST API and handles the HTTP server setup.
 * _user_: A user module showcasing a simple structure using repository and REST handler.
 
