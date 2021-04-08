@@ -9,7 +9,7 @@ a REST API using the go-shipped webserver.
 **Features**
 
 * Hot reloading. :trollface:
-* sqllite3 database for local development. :heart:
+* sqlite3 database for local development. :heart:
 * ORM ready to go. :runner:
 * A simple database migration system. :raised_hands:
 * Injection of environment variables into config files. :notes:
